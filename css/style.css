@@ -1,0 +1,347 @@
+/*------- globel -----  */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.continer {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0px;
+}
+.clear-fix {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-family: "Alegreya Sans";
+  line-height: 30px;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya";
+  font-weight: 400;
+  display: inline-block;
+  transition: all 1s ease-out;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+/* --------- section home --------- */
+section.home header {
+  padding-top: 2px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: all 1s ease-in-out;
+}
+
+div.logo {
+  width: 30%;
+  float: left;
+  margin-left: 40px;
+  text-align: center;
+}
+
+div.logo img {
+  width: 40%;
+}
+
+section.home nav {
+  width: 30%;
+  float: right;
+  margin-right: 90px;
+}
+
+section.home nav li {
+  float: left;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+section.home nav li a {
+  list-style: none;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.8s ease-in-out;
+}
+
+div.bg {
+  height: 100vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+section.home div.contint {
+  width: 50%;
+  margin: 180px auto 0px auto;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+section.home div.contint h1 {
+  font-size: 76px;
+  line-height: 91px;
+}
+
+section.home div.contint p {
+  line-height: 45px;
+  font-size: 24px;
+}
+
+section.home div.contint button {
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight: 600px;
+  margin: 30px 10px;
+  padding: 15px 25px;
+  color: #fff;
+  background-color: #8e7754;
+  border: none;
+}
+
+section.home div.contint button.transparent {
+  background-color: transparent;
+  border: solid white 2px;
+}
+
+/* ------- section Who we are ------- */
+
+section.who-we div.img,
+section.who-we div.article {
+  float: left;
+  width: 45%;
+}
+
+section.who-we div.img {
+  margin-right: 30px;
+}
+
+section.who-we div.img img {
+  width: 85%;
+  display: block;
+  margin-left: 60px;
+  transition: all 1s ease-in;
+}
+
+section.who-we div.article {
+  width: 45%;
+  margin-left: 30px;
+}
+
+section.who-we div.article h2 {
+  margin: 30px 0px 15px 0px;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+section.who-we div.article ul {
+  margin-block: 30px;
+}
+section.who-we div.article ul li {
+  font-size: 18px;
+}
+section.who-we div.article ul li img {
+  width: 40px;
+  margin: 10px;
+  border: solid 2px black;
+  border-radius: 50%;
+  transition: all 1s ease-out;
+}
+
+section.who-we div.article ul li span {
+  display: inline-block;
+  padding-top: 17px;
+  vertical-align: top;
+}
+
+/* ----- section locition ----- */
+section.location {
+  background-color: #f8f8f8;
+}
+
+section.location div.article,
+section.location div.img {
+  width: 45%;
+  float: left;
+  margin-left: 60px;
+}
+
+section.location div.img img {
+  transition: all 2s ease-in-out;
+  width: 90%;
+}
+
+section.location div.article h2 {
+  margin: 110px 0px 20px;
+  font-size: 32px;
+  line-height: 44px;
+  display: inline-block;
+}
+
+section.location div.article p.p_2 {
+  margin-top: 40px;
+}
+
+/* ----- section baking ----- */
+section.baking {
+  margin-block: 40px;
+  text-align: center;
+}
+
+section.baking div.our h2 {
+  padding: 10px;
+}
+
+section.baking div.counter div.meal {
+  margin-block: 20px;
+  float: left;
+  width: calc(99% / 3);
+}
+
+section.baking div.counter div.meal img {
+  width: 90%;
+}
+
+section.baking div.counter div.meal h3 {
+  margin-block: 10px;
+}
+
+/* -------- section informition ------- */
+section.information {
+  padding-block: 60px;
+  margin-block: 30px;
+  background-color: #f8f8f8;
+}
+
+.continer .article,
+.continer .map {
+  width: 50%;
+  float: left;
+}
+
+.information .continer ul li span {
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px 0px 15px 15px;
+}
+section.information div.continer ul li img {
+  width: 40px;
+  border: #8e7754 2px solid;
+  border-radius: 50%;
+  background-color: #8e7754;
+}
+
+.information .article h3 {
+  font-size: 32px;
+  line-height: 44px;
+  margin-block: 30px;
+}
+
+.information .article p {
+  line-height: 30px;
+}
+
+.information .article .p_2 {
+  margin-block: 15px;
+}
+
+.continer .map {
+  border: #8e7754 2px solid;
+  width: 45%;
+  transition: all 1s ease-out;
+}
+
+/* ------ foter ------- */
+footer {
+  background-color: #403d38;
+  color: #fff;
+  background-image: url(../images/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: 85% 20%;
+}
+
+footer .continer .itme {
+  margin-block: 30px;
+  float: left;
+  width: calc(100% / 4);
+  transition: all 1s ease-out;
+}
+
+.itme .p-2 {
+  margin-top: 15px;
+}
+
+/* /////part 1  */
+.part-1 .itme ul {
+  margin-left: 20px;
+}
+
+.part-1 .itme ul li {
+  margin-block: 20px;
+  border-bottom: 1px #cdcccc solid;
+}
+
+.itme ul.icon img {
+  width: 40px;
+}
+/* part 2 */
+.part_2 {
+  background-color: #353330;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.sicol {
+  width: 25%;
+  margin: auto;
+}
+
+.sicol a img {
+  width: 12%;
+  border-radius: 50%;
+  margin-left: 35px;
+  transition: all 0.5s;
+}
+
+/* ======== hover ======= */
+
+section.home div.contint button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.sicol a:hover img {
+  background-color: white;
+  border: #8e7754 1px solid;
+}
+
+section.home nav li a:hover {
+  background-color: #8e7754;
+  padding: 7px;
+  border: white 2px solid;
+  border-radius: 10%;
+}
+
+header:hover {
+  background-color: #8e7754;
+}
